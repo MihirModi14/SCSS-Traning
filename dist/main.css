@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+#box-1 {
+  position: absolute;
+  transform: translate(50px, 50px);
+  background-color: aquamarine;
+}
+
+#box-2 {
+  position: absolute;
+  background-color: pink;
+}
+
+#box-3 {
+  position: absolute;
+  transform: translate(-50px, -50px);
+  background-color: blueviolet;
+}
+
+main {
+  float: left;
+  background-color: skyblue;
+}
+@media (min-width: 0px) {
+  main {
+    height: 100vh;
+    width: 100%;
+  }
+}
+@media (min-width: 600px) {
+  main {
+    height: 100vh;
+    width: 50%;
+  }
+}
+@media (min-width: 1000px) {
+  main {
+    height: 100vh;
+    width: 20%;
+  }
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: blue;
+}
+
+aside {
+  position: relative;
+  float: right;
+  background-color: orange;
+}
+@media (min-width: 0px) {
+  aside {
+    height: 100vh;
+    width: 100%;
+  }
+}
+@media (min-width: 600px) {
+  aside {
+    height: 100vh;
+    width: 50%;
+  }
+}
+@media (min-width: 1000px) {
+  aside {
+    height: 100vh;
+    width: 80%;
+  }
+}
+
+#box-2 {
+  z-index: 3;
+}
+
+#box-3 {
+  z-index: 2;
+}
+
+#box-1 {
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: green;
+  color: #fff;
+  margin: 2px;
+  padding: 1rem 2rem;
+}
+
+.btn-secondary {
+  display: inline-block;
+  background-color: orange;
+  color: #fff;
+  margin: 2px;
+  padding: 1rem 2rem;
+}
+
+.btn-alert {
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+  margin: 2px;
+  padding: 1rem 2rem;
+}
+
+.btn-notify {
+  display: inline-block;
+  background-color: blue;
+  color: #fff;
+  margin: 2px;
+  padding: 1rem 2rem;
+}
+
+.btn-error {
+  display: inline-block;
+  background-color: white;
+  color: #fff;
+  margin: 2px;
+  padding: 1rem 2rem;
+  color: black;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=main.css.map */
